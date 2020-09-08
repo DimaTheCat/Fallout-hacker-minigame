@@ -1,4 +1,4 @@
-# Fallout-terminal-hacker-game
+# Fallout-hacker-minigame
 A simple in-terminal game inspired by minigame in Fallout game series
 
 * The game have 5 difficulty levels that randomly selected
