@@ -1,0 +1,32 @@
+[
+    {
+      "dificulty": "v1.0.2",
+      "passwords": [
+        "test"
+      ]
+    },
+    {
+      "dificulty": "v2.5.1",
+      "passwords": [
+        "test"
+      ]
+    },
+    {
+      "dificulty": "v3.0.2",
+      "passwords": [
+        "test"
+      ]
+    },
+    {
+      "dificulty": "v4.3.0",
+      "passwords": [
+        "test"
+      ]
+    },
+    {
+      "dificulty": "v5.5.1",
+      "passwords": [
+        "test"
+      ]
+    }
+  ]
