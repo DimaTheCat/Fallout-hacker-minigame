@@ -1,77 +1,66 @@
-[
-    {
-      "dificulty": "v1.0.2",
-      "passwords": [
-        "TEST",
-        "ARMY",
-        "SOIL",
-        "DUCK",
-        "WORM",
-        "COAT",
-        "RICE",
-        "EXIT",
-        "MAIN",
-        "SOAP"
-      ]
-    },
-    {
-      "dificulty": "v2.5.1",
-      "passwords": [
-        "MORALE",
-        "MARBLE",
-        "WRITER",
-        "AGENDA",
-        "IMPACT",
-        "REVERAL",
-        "GROUND",
-        "DECIDE",
-        "PROFIT",
-        "MIRROR"
-      ]
-    },
-    {
-      "dificulty": "v3.0.2",
-      "passwords": [
-        "PASSWORDS",
-        "ARCHITECT",
-        "EVOLUTION",
-        "COMMUNIST",
-        "RECORDING",
-        "REBELLION",
-        "POLICEMEN",
-        "COMPUTING",
-        "WILLPOWER",
-        "IMPORTANT"
-      ]
-    },
-    {
-      "dificulty": "v4.3.0",
-      "passwords": [
-        "GRANDMOTHER",
-        "NATIONALISM",
-        "EXPLORATION",
-        "RESTORATION",
-        "RESPONSIBLE",
-        "ACHIEVEMENT",
-        "ELECTRONICS",
-        "CONTINENTAL",
-        "CALCULATION",
-        "COOPERATIVE"
-      ]
-    },
-    {
-      "dificulty": "v5.5.1",
-      "passwords": [
-        "UNDERSTANDING",
-        "INVESTIGATION",
-        "COMMUNICATION",
-        "CONCENTRATION",
-        "DEMONSTRATION",
-        "ENTERTAINMENT",
-        "REVOLUTIONARY",
-        "QUALIFICATION",
-        "INAPPROPRIATE",
-        "ENVIRONMENTAL"
-      ]
-    }
-  ]
+{
+    "VeryEasy": [
+    "TEST",
+    "ARMY",
+    "SOIL",
+    "DUCK",
+    "WORM",
+    "COAT",
+    "RICE",
+    "EXIT",
+    "MAIN",
+    "SOAP"
+    ],
+
+    "Easy": [
+    "MORALE",
+    "MARBLE",
+    "WRITER",
+    "AGENDA",
+    "IMPACT",
+    "REVERAL",
+    "GROUND",
+    "DECIDE",
+    "PROFIT",
+    "MIRROR"
+    ],
+
+    "Average": [
+    "PASSWORDS",
+    "ARCHITECT",
+    "EVOLUTION",
+    "COMMUNIST",
+    "RECORDING",
+    "REBELLION",
+    "POLICEMEN",
+    "COMPUTING",
+    "WILLPOWER",
+    "IMPORTANT"
+    ],
+
+    "Hard": [
+    "GRANDMOTHER",
+    "NATIONALISM",
+    "EXPLORATION",
+    "RESTORATION",
+    "RESPONSIBLE",
+    "ACHIEVEMENT",
+    "ELECTRONICS",
+    "CONTINENTAL",
+    "CALCULATION",
+    "COOPERATIVE"
+    ],
+
+    "VeryHard": [
+    "UNDERSTANDING",
+    "INVESTIGATION",
+    "COMMUNICATION",
+    "CONCENTRATION",
+    "DEMONSTRATION",
+    "ENTERTAINMENT",
+    "REVOLUTIONARY",
+    "QUALIFICATION",
+    "INAPPROPRIATE",
+    "ENVIRONMENTAL"
+    ]
+}
