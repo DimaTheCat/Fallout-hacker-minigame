@@ -11,7 +11,13 @@ Password Required\n\n""".format(GameDif)
 
 #Check the word
 def WordCheck(word, password):
-    pass
+    Similar = 0
+    W = list(word)
+    P = list(password)
+    for i in range(0, len(password)):
+        if W[i] == P[i]:
+            Similar += 1
+    return Similar
 
 #Prints a greeting
 for char in Greting:
@@ -21,4 +27,3 @@ for char in Greting:
 def Game():
     Attempts = 4
     print("Attempts Remaining:{}".format(' *'*Attempts))
-    
