@@ -1,4 +1,5 @@
-from random import randint
+from random import randint, choice
+from string import punctuation, digits
 from time import sleep
 from json import loads
 
@@ -12,6 +13,7 @@ Greting = """RobcoOS {0}
 Password Required\n\n""".format(Version)
 
 #Prints a greeting
+print("\n"*24)
 for char in Greting:
     print(char, end='', flush=True)
     sleep(0.05)
@@ -31,7 +33,7 @@ def WordCheck(word, password):
 
 #In case of Sucsess
 def Sucsess():
-    print("Sucsess!")
+    print("\nSucsess!")
     sleep(1)
     for i in range(25):
         print("\n", end='', flush=True)
@@ -57,9 +59,21 @@ def Game():
 
     Password = Words[randint(0, len(Words)-1)]
 
+    Line = ''
+
+    for word in Words:
+        Line += str(''.join(choice(punctuation + digits) for i in range(randint(2, 100))))
+        Line += word
+        Line += str(''.join(choice(punctuation + digits) for i in range(randint(2, 100))))
+
     while True:
-        print("Attempts Remaining:{}".format(' *'*Attempts))
-        print(Words) #18 lines
+        print("Attempts Remaining:{}\n".format(' *'*Attempts))
+        print("0x{} ".format(str(randint(1001, 9999))), end='')
+        for char in Line:
+            print(char, end='', flush=True)
+            sleep(0.0002)
+        print("")
+        # print(Words) #18 lines
         guess = input(':').upper() #now it none case censative
         if WordCheck(guess, Password) == len(Password):
             Sucsess()
