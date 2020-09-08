@@ -2,31 +2,76 @@
     {
       "dificulty": "v1.0.2",
       "passwords": [
-        "test"
+        "TEST",
+        "ARMY",
+        "SOIL",
+        "DUCK",
+        "WORM",
+        "COAT",
+        "RICE",
+        "EXIT",
+        "MAIN",
+        "SOAP"
       ]
     },
     {
       "dificulty": "v2.5.1",
       "passwords": [
-        "test"
+        "MORALE",
+        "MARBLE",
+        "WRITER",
+        "AGENDA",
+        "IMPACT",
+        "REVERAL",
+        "GROUND",
+        "DECIDE",
+        "PROFIT",
+        "MIRROR"
       ]
     },
     {
       "dificulty": "v3.0.2",
       "passwords": [
-        "test"
+        "PASSWORDS",
+        "ARCHITECT",
+        "EVOLUTION",
+        "COMMUNIST",
+        "RECORDING",
+        "REBELLION",
+        "POLICEMEN",
+        "COMPUTING",
+        "WILLPOWER",
+        "IMPORTANT"
       ]
     },
     {
       "dificulty": "v4.3.0",
       "passwords": [
-        "test"
+        "GRANDMOTHER",
+        "NATIONALISM",
+        "EXPLORATION",
+        "RESTORATION",
+        "RESPONSIBLE",
+        "ACHIEVEMENT",
+        "ELECTRONICS",
+        "CONTINENTAL",
+        "CALCULATION",
+        "COOPERATIVE"
       ]
     },
     {
       "dificulty": "v5.5.1",
       "passwords": [
-        "test"
+        "UNDERSTANDING",
+        "INVESTIGATION",
+        "COMMUNICATION",
+        "CONCENTRATION",
+        "DEMONSTRATION",
+        "ENTERTAINMENT",
+        "REVOLUTIONARY",
+        "QUALIFICATION",
+        "INAPPROPRIATE",
+        "ENVIRONMENTAL"
       ]
     }
   ]
